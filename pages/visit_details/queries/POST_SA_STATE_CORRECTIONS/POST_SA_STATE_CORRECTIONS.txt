@@ -1,0 +1,6 @@
+{{
+	{
+		markingState: admin_marking_form.formData.correctedState,
+		enrichments: [ admin_marking_form.formData.correctionEnrichments ]
+	}
+}}

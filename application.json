@@ -1,0 +1,61 @@
+{
+  "pages": [
+    {
+      "id": "opening_page",
+      "isDefault": false
+    },
+    {
+      "id": "champ_details",
+      "isDefault": false
+    },
+    {
+      "id": "vehicle_model_details",
+      "isDefault": false
+    },
+    {
+      "id": "vehicle_details",
+      "isDefault": false
+    },
+    {
+      "id": "Add Vehicles for Capacity",
+      "isDefault": false
+    },
+    {
+      "id": "trip_details",
+      "isDefault": false
+    },
+    {
+      "id": "visit_details",
+      "isDefault": false
+    },
+    {
+      "id": "truck_shifts",
+      "isDefault": false
+    },
+    {
+      "id": "asset_leakage_tickets",
+      "isDefault": false
+    },
+    {
+      "id": "Login",
+      "isDefault": true
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#C2DAF0",
+  "icon": "alien",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "deleted": false
+}

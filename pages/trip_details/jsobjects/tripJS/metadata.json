@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "tripJS",
+    "pageId": "trip_details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "trip_details_tripJS",
+  "deleted": false,
+  "gitSyncId": "63ac285973f7c80b41408e79_63d8efd929f31e0c59f473a1"
+}

@@ -1,0 +1,110 @@
+{
+  "unpublishedPage": {
+    "name": "Add Vehicles for Capacity",
+    "slug": "add-vehicles-for-capacity",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1090,
+          "containerStyle": "none",
+          "snapRows": 67,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 86,
+          "minHeight": 680,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Add Vehicles for Capacity_getTrUnitsFromFutureDate",
+              "name": "getTrUnitsFromFutureDate",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                " appsmith.store.gatekeeperToken "
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Add Vehicles for Capacity_getUpdatableFromDate",
+              "name": "getUpdatableFromDate",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                " appsmith.store.gatekeeperToken "
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Add Vehicles for Capacity_getAllFulfilmentCenters",
+              "name": "getAllFulfilmentCenters",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                " appsmith.store.gatekeeperToken "
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Add Vehicles for Capacity_getShiftsOfFc",
+              "name": "getShiftsOfFc",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                " appsmith.store.gatekeeperToken ",
+                "this.params.fcId"
+              ],
+              "timeoutInMillisecond": 15000
+            },
+            {
+              "id": "Add Vehicles for Capacity_getVehicleModelsByFcId",
+              "name": "getVehicleModelsByFcId",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                " appsmith.store.gatekeeperToken ",
+                "this.params.fcId"
+              ],
+              "timeoutInMillisecond": 15000
+            },
+            {
+              "id": "Add Vehicles for Capacity_getVerticals",
+              "name": "getVerticals",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                " appsmith.store.gatekeeperToken "
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Add Vehicles for Capacity",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "637be428aff2985536c4e2cf_639f03b973f7c80b41408be3"
+}

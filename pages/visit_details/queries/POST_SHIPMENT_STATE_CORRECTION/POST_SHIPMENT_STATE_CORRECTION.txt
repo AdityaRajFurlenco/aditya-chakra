@@ -1,0 +1,7 @@
+{{
+	{
+		markingState: admin_marking_form.formData.correctedState,
+		enrichments: [admin_marking_form.formData.reasonForAdminMarking],
+		visitId: tbl_trip_visit_list.selectedRow.visitId || appsmith.store.selectedVisitId
+	}
+}}

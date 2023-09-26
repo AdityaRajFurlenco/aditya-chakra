@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "getVehicleModelByFcIdObject",
+    "pageId": "vehicle_details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "vehicle_details_getVehicleModelByFcIdObject",
+  "deleted": false,
+  "gitSyncId": "63ac285973f7c80b41408e79_63b5a9ed73f7c80b414090c9"
+}

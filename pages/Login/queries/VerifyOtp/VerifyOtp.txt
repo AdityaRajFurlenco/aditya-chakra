@@ -1,0 +1,4 @@
+{
+  "destination":{{contactNumberInput.inputText}},
+	"code":{{otpInput.inputText}}
+}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "ActivigtyStateCorrectionJS",
+    "pageId": "visit_details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "visit_details_ActivigtyStateCorrectionJS",
+  "deleted": false,
+  "gitSyncId": "63ac285973f7c80b41408e79_63d8bf7e29f31e0c59f4736b"
+}

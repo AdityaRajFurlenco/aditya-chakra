@@ -1,0 +1,7 @@
+{{
+{
+	"vehicleModelId": vehicle_update_form.formData.vehicleModelId,
+	"volumeInCft": vehicle_update_form.formData.volumeInCft,
+	"isActive": vehicle_update_form.formData.status == "active" ? true : false
+}
+}}

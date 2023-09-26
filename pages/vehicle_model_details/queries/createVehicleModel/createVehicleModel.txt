@@ -1,0 +1,7 @@
+{{
+{
+	"name": vehicle_model_create_form.formData.name,
+	"fcId": vehicle_model_create_form.formData.fcId,
+	"capacityInCft": vehicle_model_create_form.formData.volume
+}
+}}

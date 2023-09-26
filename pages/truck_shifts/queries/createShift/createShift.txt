@@ -1,0 +1,7 @@
+{{
+{
+	"name": shift_create_form.formData.name,
+	"fcId": shift_create_form.formData.fcId,
+	"startTime": shift_create_form.formData.startTime
+}
+}}

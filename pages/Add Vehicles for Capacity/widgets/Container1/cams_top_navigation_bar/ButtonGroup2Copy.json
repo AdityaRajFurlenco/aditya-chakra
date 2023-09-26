@@ -1,0 +1,153 @@
+{
+    "boxShadow": "none",
+    "widgetName": "ButtonGroup2Copy",
+    "isCanvas": false,
+    "dynamicPropertyPathList": [{"key": "groupButtons.groupButton1.buttonColor"}],
+    "displayName": "Button Group",
+    "iconSVG": "/static/media/icon.d6773218cfb61dcfa5f460d43371e30d.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 0,
+    "bottomRow": 6,
+    "parentRowSpace": 10,
+    "groupButtons": {
+        "groupButtonolqpsf6az4": {
+            "buttonType": "MENU",
+            "buttonColor": "#3f3f46",
+            "iconName": "caret-down",
+            "widgetId": "zva22rhoij",
+            "menuItems": {
+                "menuItemjkidiupzxu": {
+                    "onClick": "{{navigateTo('asset_leakage_tickets', {}, 'SAME_WINDOW')}}",
+                    "widgetId": "5olgt2hxld",
+                    "index": 2,
+                    "id": "menuItemjkidiupzxu",
+                    "label": "Asset Leakage Tickets",
+                    "isDisabled": false,
+                    "isVisible": false
+                },
+                "menuItem9mwjxf5yur": {
+                    "onClick": "{{navigateTo('truck_shifts', {}, 'SAME_WINDOW')}}",
+                    "widgetId": "pyqtc5v84p",
+                    "index": 1,
+                    "id": "menuItem9mwjxf5yur",
+                    "label": "Add Truck Shift",
+                    "isDisabled": false,
+                    "isVisible": true
+                },
+                "menuItemxs7lh04m55": {
+                    "onClick": "{{navigateTo('champ_details', {}, 'SAME_WINDOW')}}",
+                    "widgetId": "n46bqrtotb",
+                    "index": 0,
+                    "id": "menuItemxs7lh04m55",
+                    "label": "Add Champ",
+                    "isDisabled": false,
+                    "isVisible": true
+                }
+            },
+            "index": 2,
+            "iconAlign": "right",
+            "id": "groupButtonolqpsf6az4",
+            "label": "More",
+            "placement": "CENTER",
+            "isDisabled": false,
+            "isVisible": true
+        },
+        "groupButton3": {
+            "buttonType": "MENU",
+            "buttonColor": "#3f3f46",
+            "iconName": "caret-down",
+            "widgetId": "",
+            "menuItems": {
+                "menuItemj2wyqpdshm": {
+                    "onClick": "{{navigateTo('Add Vehicles for Capacity', {}, 'SAME_WINDOW')}}",
+                    "widgetId": "hj5qk7rzai",
+                    "index": 2,
+                    "id": "menuItemj2wyqpdshm",
+                    "label": "Add Vehicles for Capacity",
+                    "isDisabled": false,
+                    "isVisible": true
+                },
+                "menuItem1": {
+                    "backgroundColor": "#FFFFFF",
+                    "onClick": "{{navigateTo('vehicle_model_details', {}, 'SAME_WINDOW')}}",
+                    "widgetId": "",
+                    "index": 0,
+                    "label": "Add Vehicle Model",
+                    "id": "menuItem1",
+                    "isVisible": true,
+                    "isDisabled": false
+                },
+                "menuItem2x9ppm8nx0": {
+                    "onClick": "{{navigateTo('vehicle_details', {}, 'SAME_WINDOW')}}",
+                    "widgetId": "kkm8hk5hui",
+                    "index": 1,
+                    "id": "menuItem2x9ppm8nx0",
+                    "label": "Add Vehicle",
+                    "isDisabled": false,
+                    "isVisible": true
+                }
+            },
+            "index": 1,
+            "iconAlign": "right",
+            "label": "Vehicle Management",
+            "id": "groupButton3",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "groupButton2": {
+            "buttonType": "MENU",
+            "buttonColor": "#3f3f46",
+            "iconName": "caret-down",
+            "widgetId": "",
+            "menuItems": {"menuItemiz0o3ot4hp": {
+                "onClick": "{{navigateTo('trip_details', {}, 'SAME_WINDOW')}}",
+                "widgetId": "tbr6owj7cl",
+                "index": 0,
+                "id": "menuItemiz0o3ot4hp",
+                "label": "Trips",
+                "isDisabled": false,
+                "isVisible": true
+            }},
+            "index": 0,
+            "iconAlign": "right",
+            "label": "Last Mile",
+            "id": "groupButton2",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "type": "BUTTON_GROUP_WIDGET",
+    "hideCard": false,
+    "animateLoading": true,
+    "parentColumnSpace": 17.625,
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButtonolqpsf6az4.menuItems.menuItemxs7lh04m55.onClick"},
+        {"key": "groupButtons.groupButton2.menuItems.menuItemiz0o3ot4hp.onClick"},
+        {"key": "groupButtons.groupButton3.menuItems.menuItem2x9ppm8nx0.onClick"},
+        {"key": "groupButtons.groupButton3.menuItems.menuItem1.onClick"},
+        {"key": "groupButtons.groupButton3.menuItems.menuItemj2wyqpdshm.onClick"},
+        {"key": "groupButtons.groupButtonolqpsf6az4.menuItems.menuItem9mwjxf5yur.onClick"},
+        {"key": "groupButtons.groupButtonolqpsf6az4.menuItems.menuItemjkidiupzxu.onClick"}
+    ],
+    "leftColumn": 8,
+    "dynamicBindingPathList": [],
+    "isDisabled": false,
+    "key": "t1fro51p6s",
+    "orientation": "horizontal",
+    "isDeprecated": false,
+    "rightColumn": 49,
+    "widgetId": "4jxuigt8bz",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "q7nuzj4cq1",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
+    "borderRadius": "0.375rem",
+    "buttonVariant": "TERTIARY"
+}

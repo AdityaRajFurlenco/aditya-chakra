@@ -1,0 +1,9 @@
+{{
+{
+		"name":champ_update_form.formData.name,
+		"fcId": champ_update_form.formData.fcId,
+		"phoneNumber": champ_update_form.formData.phoneNumber,
+		"email": champ_update_form.formData.email,
+		"type": champ_update_form.formData.type
+}
+}}

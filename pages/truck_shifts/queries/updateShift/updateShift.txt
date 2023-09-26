@@ -1,0 +1,6 @@
+{{
+{
+	"name": shift_update_form.formData.name,
+	"startTime": shift_update_form.formData.startTime
+}
+}}

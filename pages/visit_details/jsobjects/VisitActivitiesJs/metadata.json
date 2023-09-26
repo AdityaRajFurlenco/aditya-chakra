@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "VisitActivitiesJs",
+    "pageId": "visit_details",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "visit_details_VisitActivitiesJs",
+  "deleted": false,
+  "gitSyncId": "63ac285973f7c80b41408e79_63d80d2729f31e0c59f472d1"
+}

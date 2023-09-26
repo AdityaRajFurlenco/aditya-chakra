@@ -1,0 +1,76 @@
+{
+    "boxShadow": "none",
+    "widgetName": "ButtonGroup2",
+    "isCanvas": false,
+    "dynamicPropertyPathList": [
+        {"key": "isDisabled"},
+        {"key": "isVisible"}
+    ],
+    "displayName": "Button Group",
+    "iconSVG": "/static/media/icon.d6773218cfb61dcfa5f460d43371e30d.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 60,
+    "bottomRow": 64,
+    "parentRowSpace": 10,
+    "groupButtons": {
+        "groupButton1": {
+            "onClick": "{{showModal('modal_champ_deactivate')}}",
+            "buttonType": "SIMPLE",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 0,
+            "label": "Deactivate ",
+            "id": "groupButton1",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "groupButton2": {
+            "onClick": "{{showModal('modal_champ_reactivate')}}",
+            "buttonType": "SIMPLE",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 1,
+            "label": "Re-activate",
+            "id": "groupButton2",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "type": "BUTTON_GROUP_WIDGET",
+    "hideCard": false,
+    "animateLoading": true,
+    "parentColumnSpace": 11.65625,
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButton2.onClick"}
+    ],
+    "leftColumn": 39,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "groupButtons.groupButton1.buttonColor"},
+        {"key": "groupButtons.groupButton2.buttonColor"},
+        {"key": "isVisible"},
+        {"key": "isDisabled"}
+    ],
+    "isDisabled": "{{champs_table.triggeredRow.verificationStatus != \"VERIFIED\"}}",
+    "key": "31goxprcv0",
+    "orientation": "horizontal",
+    "isDeprecated": false,
+    "rightColumn": 63,
+    "widgetId": "opuksfm2jw",
+    "isVisible": "{{champs_table.triggeredRow.verificationStatus == \"VERIFIED\"}}",
+    "version": 1,
+    "parentId": "ut4w4ei3il",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "buttonVariant": "PRIMARY"
+}

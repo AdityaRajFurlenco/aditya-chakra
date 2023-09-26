@@ -1,0 +1,51 @@
+{
+    "boxShadow": "none",
+    "widgetName": "SearchTrips",
+    "isCanvas": false,
+    "dynamicPropertyPathList": [{"key": "groupButtons.groupButtonpmrlcu7mow.onClick"}],
+    "displayName": "Button Group",
+    "iconSVG": "/static/media/icon.d6773218cfb61dcfa5f460d43371e30d.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 12,
+    "bottomRow": 16,
+    "parentRowSpace": 10,
+    "groupButtons": {"groupButtonpmrlcu7mow": {
+        "onClick": "{{TRIP_INDEX.run(() => {showAlert(\"Trips fetched Successfully\", \"success\");} , (errorObj) => { console.log(errorObj);\n        errorObj.errors ? showAlert(errorObj.errors.join(\", \"), \"error\") : showAlert(\"Some error occurred, Check Console\", \"error\")\n    }, {pageNo: 1})}}   ",
+        "buttonType": "SIMPLE",
+        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "widgetId": "41nb7w4wxw",
+        "menuItems": {},
+        "index": 0,
+        "id": "groupButtonpmrlcu7mow",
+        "label": "Search",
+        "placement": "CENTER",
+        "isDisabled": false,
+        "isVisible": true
+    }},
+    "type": "BUTTON_GROUP_WIDGET",
+    "hideCard": false,
+    "animateLoading": true,
+    "parentColumnSpace": 11.9375,
+    "dynamicTriggerPathList": [{"key": "groupButtons.groupButtonpmrlcu7mow.onClick"}],
+    "leftColumn": 44,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "groupButtons.groupButtonpmrlcu7mow.buttonColor"}
+    ],
+    "key": "6fbe8xtkim",
+    "orientation": "horizontal",
+    "isDeprecated": false,
+    "rightColumn": 56,
+    "widgetId": "c5ia1o21ae",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "gu6b0md0ol",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "buttonVariant": "PRIMARY"
+}

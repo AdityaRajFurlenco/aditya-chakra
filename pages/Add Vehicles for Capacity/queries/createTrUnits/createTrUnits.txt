@@ -1,0 +1,11 @@
+{{
+{
+	"vehicleModelId": tr_unit_create_form.formData.vehicleModelId,
+	"totalUnitsAvailable": tr_unit_create_form.formData.totalUnitsAvailable,
+	"availableFromDate": tr_unit_create_form.formData.availableFromDate,
+	"availableToDate": tr_unit_create_form.formData.availableToDate,
+	"shiftId": tr_unit_create_form.formData.shiftId,
+	"fcId": tr_unit_create_form.formData.fcId,
+	"vertical": tr_unit_create_form.formData.vertical
+}
+}}

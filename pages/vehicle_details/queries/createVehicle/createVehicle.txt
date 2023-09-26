@@ -1,0 +1,9 @@
+{{
+{
+	"licensePlateNumber": vehicle_create_form.formData.licensePlateNumber,
+	"vehicleModelId": vehicle_create_form.formData.vehicleModelId,
+	"fcId": vehicle_create_form.formData.fcId,
+	"volumeInCft": vehicle_create_form.formData.volumeInCft,
+		"isActive": vehicle_create_form.formData.isActive
+}
+}}
