@@ -33,11 +33,11 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "TripsToDate.formattedDate",
-                "tbl_trip_list.pageSize || 10",
                 " appsmith.store.gatekeeperToken ",
+                "TripsFromDate.formattedDate",
+                "TripsToDate.formattedDate",
                 "tbl_trip_list.pageNo-0",
-                "TripsFromDate.formattedDate"
+                "tbl_trip_list.pageSize || 10"
               ],
               "timeoutInMillisecond": 10000
             }
