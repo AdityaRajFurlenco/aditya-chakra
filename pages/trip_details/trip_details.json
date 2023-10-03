@@ -36,6 +36,7 @@
                 "TripsToDate.formattedDate",
                 "tbl_trip_list.pageSize || 10",
                 " appsmith.store.gatekeeperToken ",
+                "TripDisplayId.text",
                 "tbl_trip_list.pageNo-0",
                 "TripsFromDate.formattedDate"
               ],

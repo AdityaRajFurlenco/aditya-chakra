@@ -3,7 +3,7 @@
     "multiRowSelection": false,
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-    "topRow": 20,
+    "topRow": 18,
     "isSortable": true,
     "onPageChange": "{{\n    ((tbl_trip_list) => {\n        TRIP_INDEX.run(() => {}, () => {}, {pageNo: tbl_trip_list.pageNo})\n    })(tbl_trip_list)\n}}",
     "type": "TABLE_WIDGET_V2",
@@ -75,6 +75,7 @@
     },
     "borderRadius": "0.375rem",
     "columnUpdatedAt": 1689760865993,
+    "originalBottomRow": 108,
     "primaryColumnId": "tripId",
     "defaultSelectedRowIndices": [0],
     "widgetName": "tbl_trip_list",
@@ -840,6 +841,7 @@
     "renderMode": "CANVAS",
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
+    "originalTopRow": 20,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
 }

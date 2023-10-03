@@ -42,6 +42,10 @@
         {
           "key": "toDate",
           "value": "{{TripsToDate.formattedDate}}"
+        },
+        {
+          "key": "tripDisplayId",
+          "value": "{{TripDisplayId.text}}"
         }
       ],
       "bodyFormData": [],
@@ -75,6 +79,9 @@
       },
       {
         "key": "queryParameters[3].value"
+      },
+      {
+        "key": "queryParameters[4].value"
       }
     ],
     "isValid": true,
@@ -82,6 +89,7 @@
     "messages": [],
     "jsonPathKeys": [
       " appsmith.store.gatekeeperToken ",
+      "TripDisplayId.text",
       "TripsFromDate.formattedDate",
       "TripsToDate.formattedDate",
       "tbl_trip_list.pageNo-0",
